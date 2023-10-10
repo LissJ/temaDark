@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lente Viva</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1 class="lenteviva">
+                LENTE<span>VIVA</span>
+            </h1>
+            <a href="#">SERVIÇOS</a>
+            <a href="#">BLOG</a>
+            <a href="#">CONTATO</a>
+            <button class="botaozin" id="trocar-tema">
+                TEMA
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <div class="parteUm">
+            <img class="um" src="image/HOMEM.png" alt="">
+            <h2>
+                TRANSFORMANDO<br>
+                MOMENTOS EM<br>
+                MEMÓRIAS ETERNAS
+            </h2>
+        </div>
+
+        <div class="parteDois">
+            <h3>
+                NOSSOS<span class="spanzin">SERVIÇOS</span>
+            </h3>
+            <div class="linhas">
+                <img class="linha" src="image/01.png" alt="">
+                <img class="linha" src="image/03.png" alt="">
+                <img class="linha" src="image/05.png" alt="">
+            </div>
+            <div class="textinho">
+                <p class="sub">ENSAIOS<span class="spanz">FOTOGRÁFICOS</span></p>
+                <p class="sub">FOTOGRAFIA<span class="spanz">AMBIENTAL</span></p>
+                <p class="sub">ENSAIO<span class="spanz">PROFISSIONAL</span></p>
+            </div>
+            <div class="linhas">
+                <img class="linha" src="image/02.png" alt="">
+                <img class="linha" src="image/04.png" alt="">
+                <img class="linha" src="image/06.png" alt="">
+            </div>
+        </div>
+
+        <div class="parteTres">
+            <h1 class="nosso">
+                NOSSO<span>BLOG</span>
+            </h1>
+            <div class="blog">
+                <img src="image/camera.png" alt="" class="camera">
+            </div>
+        </div>
+
+        <div class="parteDois">
+            <h3>
+                CONTATE-<span class="spanzin">NOS</span>
+            </h3>
+
+            <div class="tudin">
+                <div class="formulario">
+                    <label for="">NOME:</label>
+                    <input type="text">
+                    <label for="">EMAIL:</label>
+                    <input type="text">
+                    <label for="">TELEFONE:</label>
+                    <input type="text">
+                    <label for="">MENSAGEM:</label>
+                    <textarea cols="20" rows="10"></textarea>
+                    <div class="botao">
+                        <button class="enviar">ENVIAR</button>
+                    </div>
+
+                </div>
+
+                <div class="imagezinha">
+                    <img src="image/BOLSA.png" alt="" class="bolsa">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <nav class="footer">
+            <a href="#">SERVIÇOS</a>
+            <a href="#">BLOG</a>
+            <a href="#">CONTATO</a>
+
+            <h1 class="lenteviva" class="vivalente">
+                LENTE<span>VIVA</span>
+            </h1>
+        </nav>
+    </footer>
+
+    <script>
+        // localiza o botão no HTML
+        const trocarTema = document.getElementById('trocar-tema')
+        // localiza o body no HTML
+        const body = document.body;
+
+        trocarTema.addEventListener('click', () => {
+            body.classList.toggle('tema-escuro');
+        })
+    </script>
+</body>
+
+</html>

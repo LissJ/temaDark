@@ -1,0 +1,219 @@
+body {
+    background-color: #560b79;
+}
+
+/* RESET CSS */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+/* FIM RESET CSS */
+
+@font-face {
+    font-family: 'sofiaItalic';
+    src: url(font/SofiaSans-Italic.ttf);
+}
+
+.botaozin{
+    cursor: pointer;
+    margin-top: 6px;
+    display: flex;
+    padding: 0 50px;
+    background-color: #2b1c3c00;
+    font: 400 33px 'sofiaItalic';
+    color: #fff;
+}
+
+.tema-escuro{
+    background-color: #2b1c3c;
+}
+
+nav{
+    margin-top: 40px;
+    display: flex;
+}
+
+a{
+    margin-top: 6px;
+    display: flex;
+    padding: 0 50px;
+    font: 400 33px 'sofiaItalic';
+    color: #fff;
+}
+
+h1{
+    font: 400 45px 'sofiaItalic';
+    margin-left: 180px;
+    color: #fff;
+    margin-right: 220px;
+}
+
+span{
+    color: #70FF00;
+    font: 600 45px 'sofiaItalic';
+}
+
+.parteUm{
+    display: flex;
+}
+
+.um{
+    width: 310px;
+    box-shadow: -30px -30px 0 0 #70FF00;
+    border-radius: 40px;
+    margin-top: 110px;
+    margin-left: 280px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 170px;
+    margin-left: 210px;
+    font: 400 60px 'sofiaItalic';
+    color: #fff;
+}
+
+.parteDois{
+    margin-top: 130px;
+    background-color: #fff;
+    height: 1080px;
+}
+
+h3{
+    padding-left: 180px;
+    padding-top: 90px;
+    font: 400 46.5px 'sofiaItalic';
+    color: #8007b8;
+}
+
+.spanzin{
+    color: #520775;
+}
+
+.linhas{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 140px;
+    margin-right: 140px;
+    justify-content: space-around;
+}
+
+.linha{
+    box-shadow: 4px 4px #cacaca83;
+    width: 260px;
+    height: auto;
+}
+
+.textinho{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 140px;
+    margin-right: 140px;
+    justify-content: space-around;
+}
+
+.sub{
+    font: 400 31.5px 'sofiaItalic';
+    color: #000;
+}
+
+.spanz{
+    font: 600 31.5px 'sofiaItalic';
+    color: #000;
+}
+
+.nosso{
+    font: 400 46.5px 'sofiaItalic';
+    margin-left: 180px;
+    margin-top: 90px;
+    margin-bottom: 80px;
+    color: #70FF00;
+    margin-right: 220px;
+}
+
+.blog{
+    text-align: center;
+    justify-content: center;
+}
+
+.camera{
+    width: 900px;
+    margin-bottom: 150px;
+}
+
+.tudin{
+    margin-top: 80px;
+    justify-content: center;
+    display: flex;
+}
+
+.formulario{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-top: 20px;
+    font: 400 25.5px 'sofiaItalic';
+}
+
+input{
+    width: 400px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    padding: 20px 5px;
+}
+
+textarea{
+    resize: none;
+    width: 400px;
+    height: 100px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    padding: 10px 5px;
+}
+
+.bolsa{
+    margin-left: 180px;
+    border-radius: 7px;
+    width: 370px;
+    display: flex;
+}
+
+.botao{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.enviar{
+    background-color: #520775;
+    color: #fff;
+    width: 150px;
+    border-radius: 20px;
+    font: 400 23.5px 'sofiaItalic';
+
+    padding: 15px 0;
+}
+
+footer{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.footer{
+    margin-left: 100px;
+    text-align: center;
+    justify-content: center;
+}

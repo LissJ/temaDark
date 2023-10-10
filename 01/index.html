@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temas</title>
+
+    <style>
+        body{
+            background-color: white;
+            color: black;
+        }
+
+        .tema-escuro{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            Meu site
+        </h1>
+        <button id="trocar-tema">
+            Alterar
+        </button>
+    </header>
+
+    <main>
+        <p>Esse é o meu site</p>
+    </main>
+    
+    <script>
+        // localiza o botão no HTML
+        const trocarTema = document.getElementById('trocar-tema')
+        // localiza o body no HTML
+        const body = document.body;
+
+        trocarTema.addEventListener('click', () => {
+            body.classList.toggle('tema-escuro');
+        })
+    </script>
+</body>
+</html>
